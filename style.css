@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+}
+
+header {
+    width: 60%;
+}
+
+#header > section {
+    width: 40%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+main p {
+    font-size: 100px;
+}
